@@ -1,0 +1,30 @@
+{
+	"image":"clojure",
+	"extensions": [
+		"betterthantomorrow.calva"
+	],
+	"postCreateCommand": "apt-get update && apt-get install -y curl make rlwrap wget && wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein -O /bin/lein && chmod uog+x /bin/lein"
+	/* Other setup:
+		Run in terminal: lein new app project_name && cd project_name && mkdir cljs
+		Add CLJS plugin, CLJS dependecy, and CLJS build settings to project.clj example: 
+			(defproject project_name "0.1.0-SNAPSHOT"
+				  :description "FIXME: write description"
+				  :dependencies [[org.clojure/clojure "1.10.3"] [org.clojure/clojurescript "1.10.597"]]
+				  :plugins [[lein-cljsbuild "1.1.8"]]
+				  :cljsbuild {:builds [{; The path to the top-level ClojureScript source directory:
+								:source-paths ["src-cljs"]
+								; The standard ClojureScript compiler options:
+								; (See the ClojureScript compiler documentation for details.)
+								:compiler {:output-to "war/javascripts/main.js"  ; default: target/cljsbuild-main.js
+								:optimizations :advanced
+								:pretty-print true}}]}
+			)
+		To run clj in terminal: clj
+		To run clj file from clj interpreter: (load-file "filename.clj")
+		To exit clj intepreter in terminal: ctrl-c
+		To start REPL ctrl+alt+c ctr+alt+j then click leinegen
+		To compile cljs to js: lein cljsbuild once
+    
+		For Calva instructions and features see the features drop-down at https://calva.io/commands-top10/							
+		*/
+}

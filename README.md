@@ -4,7 +4,7 @@ This is a repository that will store the boilerplate files to start coding proje
 I want this repository to also act as guide for compiling and running the language or framework and point to learning resources for them.
 
 ## Why devcontainers are great
-1. Allows you to spin up development environments with the tools and software needed.
+1. Allows you to instantly spin up development environments with all the software, tools, and configuration that is required.
 2. Each environment is isolated to itself, so different software and software versions won't stack up and conflict on your machine.
 3. If it runs on someone else's machine it **WILL** run on your machine.
 

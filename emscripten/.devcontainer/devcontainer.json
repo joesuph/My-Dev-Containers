@@ -1,0 +1,5 @@
+{
+    "image":"emscripten/emsdk",
+    "forwardPorts": [8080],
+    "postCreateCommand":"apt-get update && npm install express"
+}

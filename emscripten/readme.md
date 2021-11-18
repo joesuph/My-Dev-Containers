@@ -4,7 +4,7 @@ This is a dev container for webassembly development and testing with C and C++
 
 ## Steps for testing and development
 
-Emscripten steps were taken used from [here](https://emscripten.org/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html#interacting-with-code-binding-cpp)
+Emscripten steps were taken from [here](https://emscripten.org/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html)
 
 ### 1. Run web server
 1. Open new terminal in vscode ( Ctrl+shift+` )

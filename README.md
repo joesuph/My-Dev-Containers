@@ -6,7 +6,7 @@ I want this repository to also act as guide for compiling and running the langua
 ## Why devcontainers are great
 1. Allows you to instantly spin up development environments with all the software, tools, and configuration that is required.
 2. Each environment is isolated to itself, so different software and software versions won't stack up and conflict on your machine.
-3. If it runs on someone else's machine it **WILL** run on your machine.
+3. If it runs on someone else's machine, it **WILL** run on your machine. It does this and sets itself up completely just by clicking an "Open in container" button.
 
 Check out this [video](https://www.youtube.com/watch?v=Uvf2FVS1F8k) by Microsoft VScode
 

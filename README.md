@@ -3,7 +3,14 @@ This is a repository that will store the boilerplate files to start coding proje
 
 I want this repository to also act as guide for compiling and running the language or framework and point to learning resources for them.
 
-## Using these devcontainer
+## Why devcontainers are great
+1. Allows you to spin up development environments with the tools and software needed.
+2. Each environment is isolated to itself, so different software and software versions won't stack up and conflict on your machine.
+3. If it runs on someone else's machine it **WILL** run on your machine.
+
+Check out this [video](https://www.youtube.com/watch?v=Uvf2FVS1F8k) by Microsoft VScode
+
+## Using these devcontainers
 1. Clone this repository
 2. Remove the folder of the environment that you want to use and delete the repo.
 3. Install VS-Code (use package_manager or visit [download page](https://code.visualstudio.com/download))
